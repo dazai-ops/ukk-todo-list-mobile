@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/index.jsx", "app/dashboard.jsx", "app/login.jsx", "app/+not-found.jsx", "app/_layout.jsx", "app/register.jsx", "app/middleware/authMiddleware.jsx", "app/components/views/Authentication/Login/index.jsx", "app/components/views/Authentication/Register/index.jsx", "app/components/views/Create/index.jsx", "app/components/ui/ListTask/EmptyTask/index.jsx", "app/components/ui/Modal/ConfirmChangedStatus/index.jsx", "app/components/ui/Modal/ModalChangeStatus/index.jsx", "app/components/ui/Modal/ResultChangedStatus/index.jsx", "app/components/ui/ListTask/AllTasksByStatus/index.jsx", "app/components/ui/ListTask/GroupTasksByStatus/index.jsx", "app/components/ui/Modal/ModalChangePriority/index.jsx", "app/components/ui/Modal/ModalEditTaks/index.jsx", "app/components/views/Profile/index.jsx", "app/services/pushToken.js"  ]
+}
